@@ -1,0 +1,46 @@
+@import url('http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css');
+
+body {
+  color: #5a5a5a;
+}
+/* Carousel base class */
+.carousel {
+  min-height: 100%;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  background-color: #ffffff;/*#add8e6;*/
+  min-height: 100%;
+}
+.carousel-inner > .item > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.carousel-linked-nav,
+.item img {
+  display: block; 
+  margin: 0 auto;
+}
+
+.carousel-control {
+  opacity: .3 ;
+}
+
+.carousel-control:hover,
+.carousel-control:focus {
+  opacity: .6;
+}
+
+/*.carousel-linked-nav {
+  width: 120px;
+  margin-bottom: 20px;   
+}*/
